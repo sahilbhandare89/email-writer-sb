@@ -1,30 +1,30 @@
-# ✉️ AI Email Auto-Replier
+# ✉️ AI Email Auto-Replier Chrome Extension
 
-An AI-powered web application + Chrome Extension that generates smart, context-aware email replies using **Google Gemini API**. Built with **React.js (Frontend)**, **Spring Boot (Backend)**, and a lightweight **Chrome Extension** for seamless email integration.
+A smart Chrome Extension integrated with a Spring Boot backend that uses **Google Gemini API** to automatically generate context-aware email replies. Designed to boost productivity by drafting intelligent email responses with just one click.
 
 ---
 
 ## 🚀 Features
 
-- ⚡ Auto-generates email replies using Google Gemini AI
-- 🌐 React-based frontend UI
-- 📩 Chrome Extension to grab and send email content
-- 🔧 Spring Boot backend with RESTful API
-- 🤖 Integrates with Gemini Pro model
-- 🔒 Secure API key usage
-- 💬 Reply tone and context customization (optional)
+- ✅ Automatically generates email replies using Gemini AI
+- ✅ Chrome Extension UI to select and analyze email content
+- ✅ Customizable prompt for flexible responses
+- ✅ Clean REST API built with Spring Boot
+- ✅ Real-time reply generation
+- ✅ Lightweight and easy to install
 
 ---
 
 ## 🧠 Tech Stack
 
-| Layer         | Tech                                      |
-|---------------|-------------------------------------------|
-| 🖼 Frontend    | React.js, Axios, HTML/CSS                 |
-| ⚙ Backend     | Spring Boot, Java, WebClient              |
-| 🧠 AI Engine   | Gemini Pro API                            |
-| 🌐 Extension   | Chrome Extension (Manifest V3, JS)        |
-| 📦 Build Tool | Maven                                     |
+| Layer       | Technologies                      |
+|------------|-----------------------------------|
+| Frontend    | Chrome Extension (HTML, JS, CSS) |
+| Backend     | Java + Spring Boot                |
+| AI Engine   | Gemini Pro (Google AI API)        |
+| Build Tool  | Maven                             |
+| Communication | REST API (JSON)                |
 
 
+## 📦 Project Structure
 
