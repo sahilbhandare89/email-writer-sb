@@ -11,7 +11,7 @@ An AI-powered web application + Chrome Extension that generates smart, context-a
 - 📩 Chrome Extension to grab and send email content
 - 🔧 Spring Boot backend with RESTful API
 - 🤖 Integrates with Gemini Pro model
-- 🔒 Secure API key usage
+- 🔒 Secure API key usage 
 - 💬 Reply tone and context customization (optional)
 
 ---
