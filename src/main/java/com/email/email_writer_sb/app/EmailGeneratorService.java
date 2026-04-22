@@ -25,7 +25,8 @@ public class EmailGeneratorService {
 
     public String ganerateEmailReply(EmailRequest emailRequest){
 
-
+        System.out.println("URL: " + geminiApiUrl);
+        System.out.println("KEY: " + geminiApiKey);
 
         //Build a Prompt
         String prompt=buildPrompt(emailRequest);
@@ -37,6 +38,7 @@ public class EmailGeneratorService {
                         })
                 }
         );
+
 
         //do request and get responce
         String responce=webClient.post()
@@ -64,7 +66,7 @@ public class EmailGeneratorService {
                     .path("text")
                     .asText();
         } catch (Exception e) {
-            return "Erroe Processing ;"+e.getMessage();
+            return "Error Processing ;"+e.getMessage();
         }
     }
 
